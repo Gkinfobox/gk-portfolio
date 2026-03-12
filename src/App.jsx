@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa"
 import { SiHtml5, SiSpringboot, SiQt } from "react-icons/si"
 import profilePic from "./assets/Gk_profile.jpeg"
-import resume from "./assets/Ganeshkumar_s_Resume.pdf"
+import resume from "./assets/Ganeshkumar's_Resume.pdf"
 
 export default function App() {
 
@@ -159,7 +159,7 @@ export default function App() {
                 </a>
               </div>
 
-              <a href={resume} download="Ganeshkumar_Resume.pdf" className="modal-download-btn">
+              <a href={resume} download="Ganeshkumar's_Resume.pdf" className="modal-download-btn">
                 <FaDownload style={{ marginRight: "8px" }} /> Download Resume
               </a>
             </motion.div>
@@ -197,8 +197,8 @@ export default function App() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.8 }}
         >
-          Passionate developer building modern applications using Java,
-          Qt/QML, Android and modern web technologies.
+          Software Developer specializing in Java Full Stack, with hands-on experience in Spring Boot, Android, Qt/QML, and modern web technologies. 
+          Passionate about building scalable, high-performance applications and solving real-world problems.
         </motion.p>
 
         <motion.div
@@ -281,7 +281,7 @@ export default function App() {
           <motion.div className="timeline-item" initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true }}>
             <h3>Associate Backend Developer</h3>
             <p className="timeline-company">GRT Jewellery, T.Nagar Chennai · Jul 2023 – Jun 2024</p>
-            <p className="timeline-desc">Worked on backend Java services, database administration and application design across the full SDLC.</p>
+            <p className="timeline-desc">Developed and maintained scalable Java applications, writing clean and efficient code while managing MySQL databases, optimizing queries, and handling the full SDLC from requirement gathering and analysis through to design and deployment.</p>
           </motion.div>
           
         </div>
